@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateFireReport"
+    android:padding="20dp"
+    android:background="@drawable/firefighters"
+    android:alpha="0.9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="100dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Report Title"
+            android:id="@+id/reportTitle"
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:hint="Enter Report Details"
+            android:background="@drawable/edittextstyle"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textColorHint="#fff"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Send Report"
+            android:id="@+id/sendReport"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/buttonstyleselector"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
